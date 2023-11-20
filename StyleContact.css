@@ -1,5 +1,70 @@
+body{
+    width: 1440px;
+}
 header{
-    background-image: url(Images/contact/image\ arrière\ contact.png );
+    background-image: url(Images/contact/image\ arrière\ contact.png);
     background-repeat: no-repeat;
-    background-size: 1440px x 469px;
+    background-size: cover;
+    width: 1440px;
+    height: 469px;
+    
+}
+
+.positionnement-nav-bar{
+
+    display: flex;
+    width: 1100px;
+    
+    justify-content: space-between;
+    padding-left: 115px;
+    
+
+}
+
+.style-text-tableau{
+    
+    padding-top: 5px;
+    padding-left: 8px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.espace-entre-colonnes{
+    padding-right: 5px;
+    padding-left: 35px;
+    
+}
+.espace-après-contact{
+    padding-right: 60px;
+    padding-left: 10px;
+}
+
+.style-tableau{
+    display: flex;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    width: 775px;
+    height: 90px;
+    margin-top: 80px;
+}
+
+.style-Reservez-Maintentant{
+    background-color: #1A9F18;
+    border-radius: 50px;
+    margin-left: 41px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-du-header{
+    text-align: center;
+    color: white;
+    
 }
