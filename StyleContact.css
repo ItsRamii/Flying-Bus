@@ -1,5 +1,6 @@
 body{
     width: 1440px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
     background-image: url(Images/contact/image\ arrière\ contact.png);
@@ -27,7 +28,6 @@ header{
     padding-left: 8px;
     font-size: 25px;
     font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .espace-entre-colonnes{
@@ -47,6 +47,7 @@ header{
     width: 775px;
     height: 90px;
     margin-top: 80px;
+    margin-bottom: 125px;
 }
 
 .style-Reservez-Maintentant{
@@ -60,11 +61,113 @@ header{
     width: 250px;
     font-size: 25px;
     font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .text-du-header{
     text-align: center;
     color: white;
+    
+}
+
+.agrandir-le-text-du-header{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.mettre-de-lespace-apres-header{
+    margin-top: 65px;
+    margin-bottom: 65px;
+    margin-left: 100px;
+}
+
+.couleur-rouge{
+    color: red;
+}
+
+.style-questionnaire{
+    margin: auto;
+    background-color: #D9D9D9;
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+    border-bottom: 2px black solid;
+    width: 1238px;
+    height: 1377px;
+    border-radius: 28px;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+input[type=text], select{
+    border-top: 2px #147C12 solid;
+    border-left: 2px #147C12 solid;
+    border-right: 2px #147C12 solid;
+    border-bottom: 2px #147C12 solid;
+    width: 433px;
+    height: 61px;
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+input[type=email], select{
+    border-top: 2px #147C12 solid;
+    border-left: 2px #147C12 solid;
+    border-right: 2px #147C12 solid;
+    border-bottom: 2px #147C12 solid;
+    width: 433px;
+    height: 61px;
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+input[type=tel], select{
+    border-top: 2px #147C12 solid;
+    border-left: 2px #147C12 solid;
+    border-right: 2px #147C12 solid;
+    border-bottom: 2px #147C12 solid;
+    width: 340px;
+    height: 42px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+input[type=radio], select{
+    border: 2px #147C12 solid;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.Flex-Container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1100px;
+    
+}
+
+.Flex-Container2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1007px;
+    
+}
+
+.Flex-Container3{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1007px;
+    
+}
+
+.Flex-Container4{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 860px;
     
 }

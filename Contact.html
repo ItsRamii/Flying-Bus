@@ -21,9 +21,68 @@
         </div>
 
         <h1 class="text-du-header">Voulez-vous nous contacter?</h1>
-        <p class="text-du-header">Laissez nous un bref message et nous vous répondrons au plus vite</p>
-
-       
+        <p class="text-du-header agrandir-le-text-du-header">Laissez nous un bref message et nous vous répondrons au plus vite</p>
     </header>
+
+    <h2 class="mettre-de-lespace-apres-header">Veuillez fournir les informations suivantes afin qu’on puisse vous rejoindre</h2>
+
+    <div class="style-questionnaire">
+        <p>Les informations suivies d'un astérisque<span class="couleur-rouge">*</span> sont obligatoires.</p>
+        <h3>Vos informations : </h3>
+    <form action="">
+        <div class="Flex-Container1">
+            <div>
+                <label for="Nom">Nom<span class="couleur-rouge">*</span></label> <br>
+                <input type="text" id="Nom" name="Nom">
+            </div>
+            <div>
+                <label for="Prénom">Prénom<span class="couleur-rouge">*</span></label> <br>
+                <input type="text" id="Prénom" name="Prénom">
+            </div>
+        </div>
+        <div class="Flex-Container2">
+            <div>
+                <label for="Courriel">Courriel<span class="couleur-rouge">*</span></label><br>
+                <input type="email" name="Courriel" id="Courriel">
+            </div>
+            <div>
+                <label for="Cellulaire">Cellulaire<span class="couleur-rouge">*</span></label><br>
+                <input type="tel" name="Cellulaire" id="Cellulaire">
+            </div>
+        </div>
+        <div class="Flex-Container3">
+            <div>
+                <label for="Nom-de-l'établisement">Nom de l'établisement<span class="couleur-rouge">*</span></label><br>
+                <input type="text" name="Nom de l'établisement" id="Nom-de-l'établisement">
+            </div>
+            <div>
+                <label for="Téléphone-de-l'établisement">Téléphone de l'établisement<span class="couleur-rouge">*</span></label><br>
+                <input type="tel" name="Téléphone-de-l'établisement" id="Téléphone-de-l'établisement">
+            </div>
+        </div>
+        <div class="Flex-Container4">
+            <div>
+                <label for="Votre-destination">Votre destination</label><br>
+                <select name="Destinations" id="Votre-destination">
+                    <option value="Portugal">Portugal</option>
+                    <option value="France">France</option>
+                    <option value="Chine">Chine</option>
+                    <option value="Corée du Sud">Corée du Sud</option>
+                    <option value="Espagne">Espagne</option>
+                    <option value="Argentine">Argentine</option>
+                    <option value="Égypte">Égypte</option>
+                    <option value="Allemagne">Allemagne</option>
+                    <option value="Belgique">Belgique</option>
+                </select>
+            </div>
+            <div>
+                <p>Nombre de Voyageurs</p>
+                <input type="radio" name="Voyageurs" id="30Voyageurs"><label for="30Voyageurs">30 Voyageurs</label><br>
+                <input type="radio" name="Voyageurs" id="60Voyageurs"><label for="60Voyageurs">60 Voyageurs</label><br>
+                <input type="radio" name="Voyageurs" id="90Voyageurs"><label for="90Voyageurs">90 Voyageurs</label>
+            </div>
+        </div>
+    </form>
+    </div>
 </body>
 </html>
