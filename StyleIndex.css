@@ -1,0 +1,213 @@
+body{
+    width: 1440px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+
+
+    background-image: url(Images/accueil/image\ arrière\ en-tête\ accueil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 1440px;
+    height: 333px;
+    }
+
+    .positionnement-nav-bar{
+        display: flex;
+        width: 1100px;
+        justify-content: space-between;
+        padding-left: 115px;
+    }
+
+    .style-text-tableau{
+    
+        padding-top: 5px;
+        padding-left: 8px;
+        font-size: 25px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .espace-entre-colonnes{
+        padding-right: 5px;
+        padding-left: 35px;
+        
+    }
+    .espace-après-contact{
+        padding-right: 60px;
+        padding-left: 10px;
+    }
+    
+    .style-tableau{
+        display: flex;
+        background-color: #D9D9D9;
+        border-radius: 50px;
+        width: 775px;
+        height: 90px;
+        margin-top: 80px;
+        
+    }
+    
+    .style-Reservez-Maintentant{
+        background-color: #1A9F18;
+        border-radius: 50px;
+        margin-left: 41px;
+        padding-left: 10px;
+        padding-top: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 250px;
+        font-size: 25px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .title{
+
+
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .couleur-bleu{
+        color: #5599FE;
+    }
+
+
+    .margin{
+
+        margin: 0 0 10px 0;
+        font-size: 27px;
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1{
+
+        margin-left: 30px;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .couleur-vert{
+
+        color: #20A31E;
+        
+    }
+
+    .flex-container{
+
+        display: flex;
+        flex-direction: row;
+        margin: 30px;
+        padding: 30px;
+
+    }
+
+    .avion{
+
+          padding: 40px;
+          margin-top: 150px;
+          padding-top: 130px;
+          
+    }
+
+    .DescripImage{
+
+       font-size: 18px;
+       
+    }
+
+    
+
+    .contour-vert{
+        border-top: 2px #14FF1E solid;
+        border-bottom: 2px #14FF1E solid;
+        border-left: 2px #14FF1E solid;
+        border-right: 2px #14FF1E solid;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .TextAdjust{
+
+        padding-left: 15px;
+
+
+    }
+
+
+    .contour-vertBel{
+
+        border-top: 2px #14FF1E solid;
+        border-bottom: 2px #14FF1E solid;
+        border-left: 2px #14FF1E solid;
+        border-right: 2px #14FF1E solid;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+
+
+    }
+
+
+    .Underline{
+
+
+      text-align: center;
+
+    }
+
+
+
+    .flex-container2{
+
+         
+        display: flex;
+        flex-direction: row;
+        margin: 30px;
+        padding: 30px;
+        
+
+    }
+
+
+    .TextAdjust2{
+
+
+        font-size: 20px;
+        padding-left: 30px;
+        
+    }
+
+    .PortugalAdjust{
+
+
+        text-align: center;
+
+    }
+
+
+    .greengo{
+
+
+        background-color: #0BC212;
+        padding-right: 120px;
+        padding-left: 120px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+
+.Portugal{
+
+background-color: #D9D9D9;
+    
+}
+    
