@@ -1,0 +1,277 @@
+body{
+    width: 1440px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+
+
+    background-image: url(Images/Destinations/image\ arrière\ en-tête\ destinations.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 1440px;
+    height: 333px;
+    }
+
+    .positionnement-nav-bar{
+        display: flex;
+        width: 1100px;
+        justify-content: space-between;
+        padding-left: 115px;
+    }
+
+    .style-text-tableau{
+    
+        padding-top: 5px;
+        padding-left: 8px;
+        font-size: 25px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .espace-entre-colonnes{
+        padding-right: 5px;
+        padding-left: 35px;
+        
+    }
+    .espace-après-contact{
+        padding-right: 60px;
+        padding-left: 10px;
+    }
+    
+    .style-tableau{
+        display: flex;
+        background-color: #D9D9D9;
+        border-radius: 50px;
+        width: 775px;
+        height: 90px;
+        margin-top: 80px;
+        
+    }
+
+    .style-Reservez-Maintentant{
+        background-color: #1A9F18;
+        border-radius: 50px;
+        margin-left: 41px;
+        padding-left: 10px;
+        padding-top: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 250px;
+        font-size: 25px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    .title{
+
+      text-align: center;
+       color: white;
+
+    }
+
+    .TextAdjust {
+
+        margin-left: 30px;
+        margin-top: 60px;
+        font-size: 35px;
+
+
+
+    }
+
+
+    .flex-container2{
+
+        width: 1410px;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        height: 676px;
+       justify-content: space-between;
+        align-items: start;
+        margin-bottom: 30px;
+    
+    }
+
+
+    .TextAdjust2{
+
+
+        text-align: left;
+        padding-left: 24px;
+        font-size: 23px;
+    }
+
+    .PortugalAdjust{
+
+        text-align: center;
+        font-size: 32px;
+        padding: 0px;
+        margin-top: 10px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+
+    .greengo{
+
+
+        background-color: #0BC212;
+        padding-right: 120px;
+        padding-left: 105px;
+        padding-top: 12px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        
+    }
+
+    .greengo2{
+
+
+        background-color: #0BC212;
+        padding-right: 120px;
+        padding-left: 135px;
+        padding-top: 12px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        margin-left: 11px;
+        
+    }
+
+
+
+
+.Paysaccueil1{
+
+background-color: #D9D9D9;
+width: 428px;
+height: 685px;
+    
+}
+
+
+.Paysaccueil2{
+
+    background-color: #D9D9D9;
+    width: 473px;
+    height: 685px;
+        
+    }
+    .Paysaccueil3{
+
+
+        background-color: #D9D9D9;
+        width: 424px;
+        height: 685px;
+
+
+            
+        }
+    .PortugalAdjust2 {
+
+
+     margin-top: 60px;
+     margin-left: 15px;
+     padding-left: 12px;
+     padding-right: 0px;
+    
+
+    }
+
+
+    .flex-container3 {
+
+        width: 1410px;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        height: 676px;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: 30px;
+    
+
+
+
+    }
+
+
+    .flex-container4 {
+
+        width: 1410px;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        height: 676px;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: 50px;
+    
+
+
+
+    }
+
+    .greengo3 {
+
+    
+        background-color: #0BC212;
+        padding-right: 120px;
+        padding-left: 90px;
+        padding-top: 12px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        margin-left: 11px;  
+
+
+
+    }
+
+    .greengoUnique {
+
+    
+    background-color: #0BC212;
+    padding-right: 121px;
+    padding-left: 98px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-left: 2px;
+
+
+    }
+
+
+    .PortugalAdjust2 {
+
+
+        margin-top: 60px;
+        margin-left: 15px;
+        padding-left: 12px;
+        padding-right: 0px;
+       
+   
+       }
+
+       .PortugalAdjustUnique {
+
+
+        margin-top: 88px;
+        margin-left: 31px;
+        padding-left: 16px;
+        
+    }
+       
+   
+       
