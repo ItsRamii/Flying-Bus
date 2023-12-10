@@ -9,13 +9,13 @@
 <body>
     <header>
         <div class="positionnement-nav-bar">
-            <img src="Images/avion.png" alt="logo-compagnie" width="265px" height="246px" class="positionnement-logo">
+            <a href="index.html" class="enlever-ligne-enbas-des-liens"><img src="Images/avion.png" alt="logo-compagnie" width="265px" height="246px" class="positionnement-logo" ></a>
             <div class="style-tableau">
                 <p class="style-text-tableau espace-après-contact ">Contact</p>
-                <p class="style-text-tableau espace-entre-colonnes">À propos</p>
+                <a href="àpropos.html" class="enlever-ligne-enbas-des-liens"><p class="style-text-tableau espace-entre-colonnes">À propos</p></a>
                 <p class="style-text-tableau espace-entre-colonnes">Destinations</p>
                 <div class="style-Reservez-Maintentant">
-                    <p >Réservez Maintenant</p>
+                    <a href="" class="enlever-ligne-enbas-des-liens"><p >Réservez Maintenant</p></a>  
                 </div>
             </div>
         </div>
@@ -33,37 +33,38 @@
         <div class="Flex-Container1">
             <div>
                 <label for="Nom">Nom<span class="couleur-rouge">*</span></label> <br>
-                <input type="text" id="Nom" name="Nom">
+                <input type="text" id="Nom" name="Nom" required>
             </div>
             <div>
                 <label for="Prénom">Prénom<span class="couleur-rouge">*</span></label> <br>
-                <input type="text" id="Prénom" name="Prénom">
+                <input type="text" id="Prénom" name="Prénom" required>
             </div>
         </div>
         <div class="Flex-Container2">
             <div>
                 <label for="Courriel">Courriel<span class="couleur-rouge">*</span></label><br>
-                <input type="email" name="Courriel" id="Courriel">
+                <input type="email" name="Courriel" id="Courriel" required>
             </div>
             <div>
                 <label for="Cellulaire">Cellulaire<span class="couleur-rouge">*</span></label><br>
-                <input type="tel" name="Cellulaire" id="Cellulaire">
+                <input type="tel" name="Cellulaire" id="Cellulaire" required>
             </div>
         </div>
         <div class="Flex-Container3">
             <div>
                 <label for="Nom-de-l'établisement">Nom de l'établisement<span class="couleur-rouge">*</span></label><br>
-                <input type="text" name="Nom de l'établisement" id="Nom-de-l'établisement">
+                <input type="text" name="Nom de l'établisement" id="Nom-de-l'établisement" required>
             </div>
             <div>
                 <label for="Téléphone-de-l'établisement">Téléphone de l'établisement<span class="couleur-rouge">*</span></label><br>
-                <input type="tel" name="Téléphone-de-l'établisement" id="Téléphone-de-l'établisement">
+                <input type="tel" name="Téléphone-de-l'établisement" id="Téléphone-de-l'établisement" required>
             </div>
         </div>
         <div class="Flex-Container4">
             <div>
                 <label for="Votre-destination">Votre destination</label><br>
                 <select name="Destinations" id="Votre-destination">
+                    <option class="option-destination"></option>
                     <option value="Portugal">Portugal</option>
                     <option value="France">France</option>
                     <option value="Chine">Chine</option>
@@ -77,10 +78,19 @@
             </div>
             <div>
                 <p>Nombre de Voyageurs</p>
-                <input type="radio" name="Voyageurs" id="30Voyageurs"><label for="30Voyageurs">30 Voyageurs</label><br>
+                <input type="radio" name="Voyageurs" id="30Voyageurs"><label for="30Voyageurs">30 Voyageurs</label>
                 <input type="radio" name="Voyageurs" id="60Voyageurs"><label for="60Voyageurs">60 Voyageurs</label><br>
                 <input type="radio" name="Voyageurs" id="90Voyageurs"><label for="90Voyageurs">90 Voyageurs</label>
+                <input type="radio" name="Voyageurs" id="90+Voyageurs"><label for="90+Voyageurs">90+ Voyageurs</label>
             </div>
+        </div>
+        <div class="Flex-Container5">
+            <h3>Votre message <span class="couleur-rouge">*</span> : </h3>
+            <label for="Message"></label>
+            <textarea name="Message" id="Message" required></textarea>
+        </div>
+        <div class="Flex-Container6">
+            <input type="submit" value="Soummetre la Demande">
         </div>
     </form>
     </div>
