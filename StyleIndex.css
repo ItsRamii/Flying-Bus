@@ -64,6 +64,11 @@ header{
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    .enlever-ligne-enbas-des-liens{
+        text-decoration: none;
+        color: black;
+    }
+
 
     .title{
 
@@ -270,9 +275,12 @@ height: 685px;
 
 
     .YtVid {
+        display: list-item;
+        align-items: center;
+        
+        
 
-
-    padding-left: 130px;
+        
 
 
 
