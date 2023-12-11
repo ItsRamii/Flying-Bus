@@ -1,11 +1,13 @@
 body{
     width: 1440px;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
 header{
 
 
-background-image: url(Flying-Bus/Images/A-propos/A-propos\ arriere\ en-tete.jpg);
+background-image: url(Images/A-propos/A-propos\ arriere\ en-tete.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -13,14 +15,72 @@ width: 1440px;
 height: 333px;
 }
 
+.positionnement-nav-bar{
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    padding-left: 115px;
+}
+
+.style-text-tableau{
+
+    padding-top: 5px;
+    padding-left: 8px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.espace-entre-colonnes{
+    padding-right: 5px;
+    padding-left: 35px;
+    
+}
+.espace-après-contact{
+    padding-right: 60px;
+    padding-left: 10px;
+}
+
+.style-tableau{
+    display: flex;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    width: 775px;
+    height: 90px;
+    margin-top: 80px;
+    
+}
+
+.style-Reservez-Maintentant{
+    background-color: #1A9F18;
+    border-radius: 50px;
+    margin-left: 41px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enlever-ligne-enbas-des-liens{
+    text-decoration: none;
+    color: black;
+}
+
 
 
 p{
 
+
+}
+
+.style-text{
     margin: 0 0 10px 0;
     font-size: 27px;
     margin-left: 30px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -39,10 +99,7 @@ margin-top: 110px;
 
 
 .title{
-
-
     text-align: center;
-    padding-top: 200px;
     color: #FFFFFF;
 }
 
