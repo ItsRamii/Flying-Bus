@@ -65,6 +65,11 @@ header{
         color: white;
     }
 
+    .enlever-ligne-enbas-des-liens{
+        text-decoration: none;
+        color: black;
+    }
+
     .title{
 
       text-align: center;
@@ -124,11 +129,20 @@ header{
         padding-left: 105px;
         padding-top: 12px;
         padding-bottom: 20px;
-        margin-top: 10px;
+        
         margin-bottom: 10px;
         font-size: 30px;
         
     }
+
+    .PortugalAdjust2 {
+
+
+        margin-top: 0px;
+        margin-left: 15px;
+        padding-left: 12px;
+        padding-right: 0px;
+       }
 
     .greengo2{
 
@@ -253,16 +267,7 @@ height: 685px;
     }
 
 
-    .PortugalAdjust2 {
 
-
-        margin-top: 60px;
-        margin-left: 15px;
-        padding-left: 12px;
-        padding-right: 0px;
-       
-   
-       }
 
        .PortugalAdjustUnique {
 
@@ -273,5 +278,145 @@ height: 685px;
         
     }
        
-   
-       
+   .container-popup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    padding-left: 50px;
+    padding-top: 20px;
+   }
+
+   .titre-popup{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 900;
+   }
+
+   input[type=text]{
+    width: 337px;
+    height: 46px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px #3385FF solid;
+   }
+
+   input[type=email]{
+    width: 337px;
+    height: 46px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px #3385FF solid;
+   }
+
+   input[type=tel]{
+    width: 264px;
+    height: 32px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px #3385FF solid;
+   }
+
+.buttonFermer{
+    font-size: 18px;
+    border: 5px white solid; 
+    background-color: #3385FF;
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.container-inputs{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 300px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+
+.buttonOuvrir{
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #0BC212;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttonOuvrir :active{
+    opacity: 0.8;
+}
+
+.modal{
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+    
+
+    padding-left: 165px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.modal.open {
+    opacity: 1;
+    z-index: 999;
+}
+.buttonOuvrir:hover {
+    background-color: #0aa10f;
+  }
+
+.modal-inner{
+    background-color: #A2BDE5;
+    border-top: 10px #3385FF dashed;
+    border-bottom: 10px #3385FF dashed;
+    border-left: 10px #3385FF dashed;
+    border-right: 10px #3385FF dashed;
+    width: 1068px;
+    height: 636px;
+}
+
+
+.video{
+    
+    
+    border-radius: 32px;
+}
+
+.symbole-X{
+    width: 100px;
+}
+
+.image-avion{
+    width: 150px;
+}
+
+.titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1040px;
+    padding-left: 20px;
+    
+}
+
+.popup{
+    font-size: 19px;
+    font-weight: 800;
+}

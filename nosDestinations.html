@@ -11,16 +11,16 @@
     
     <header>
         <div class="positionnement-nav-bar">
-            <img src="Images/avion.png" alt="logo-compagnie" width="265px" height="246px" class="positionnement-logo">
+            <a href="index.html" class="enlever-ligne-enbas-des-liens"><img src="Images/avion.png" alt="logo-compagnie" width="265px" height="246px" class="positionnement-logo" ></a>
             <div class="style-tableau">
-                <p class="style-text-tableau espace-après-contact ">Contact</p>
-                <p class="style-text-tableau espace-entre-colonnes">À propos</p>
-                <p class="style-text-tableau espace-entre-colonnes">Destinations</p>
+                <a href="Contact.html" class="enlever-ligne-enbas-des-liens"><p class="style-text-tableau espace-après-contact ">Contact</p></a>
+                <a href="àpropos.html" class="enlever-ligne-enbas-des-liens"><p class="style-text-tableau espace-entre-colonnes">À propos</p></a>
+                <a href="nosDestinations.html" class="enlever-ligne-enbas-des-liens"><p class="style-text-tableau espace-entre-colonnes">Destinations</p></a>
                 <div class="style-Reservez-Maintentant">
-                    <p >Réservez Maintenant</p>
+                    <a href="" class="enlever-ligne-enbas-des-liens"><p >Réservez Maintenant</p></a>  
                 </div>
             </div>
-        </div>
+          </div>
 
                <h1 class="title">Nos Destinations</h1> <br><br>
 
@@ -44,8 +44,10 @@
                      Portugal : plages dorées, cuisine <br>
                      délicieuse, histoire riche. Votre <br>
                      aventure inoubliable commence ici !  </p>
-      
-                     <h2 class="PortugalAdjust2"> <span class="greengo"> S'inscrire! </span></h2>
+                       
+                    <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
+                    
+                        
       
       
             </div>
@@ -66,7 +68,7 @@
                           et des trésors culturels. Réservez votre <br>   
                           aventure française dès maintenant !
         
-                       <h2 class="PortugalAdjust2"> <span class="greengo2"> S'inscrire! </span></h2>
+                          <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
         
         
               </div>
@@ -87,7 +89,7 @@
                      une aventure culturelle inoubliable <br>
                      vous attend !
       
-                     <h2 class="PortugalAdjust2"> <span class="greengo"> S'inscrire! </span></h2>
+                     <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
       
       
             </div>
@@ -111,7 +113,7 @@
                     laissez-vous séduire par ce voyage <br>
                     captivant et unique."
   
-                 <h2 class="PortugalAdjust2"> <span class="greengo"> S'inscrire! </span></h2>
+                    <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
   
   
         </div>
@@ -132,7 +134,7 @@
                     historiques vous promettent des <br>
                     souvenirs mémorables ! Vamos!
     
-                   <h2 class="PortugalAdjust2"> <span class="greengo2"> S'inscrire! </span></h2>
+                    <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
     
     
           </div> 
@@ -153,7 +155,7 @@
                     tango, une aventure sud-américaine <br>
                     époustouflante vous attend ! 
   
-                 <h2 class="PortugalAdjust2"> <span class="greengo"> S'inscrire! </span></h2>
+                    <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
   
   
         </div>
@@ -181,7 +183,7 @@
                 du Nil, pour une aventure historique et <br>
                 envoûtante incomparable.
 
-             <h2 class="PortugalAdjust2"> <span class="greengo3"> S'inscrire! </span></h2>
+                <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
 
 
     </div>
@@ -201,36 +203,63 @@
                 et paysages pittoresques se rencontrent <br>
                 pour une expérience voyage inoubliable.
 
-               <h2 class="PortugalAdjustUnique"> <span class="greengoUnique"> S'inscrire! </span></h2>
+                <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
 
-
-      </div> 
-
-
-
-
-
-
-      <div class="Paysaccueil3"> 
-
-          <img src="Images/Destinations/Image de la Belgique.jpg" alt="Argentine">
-
-           <p class="PortugalAdjust">Vers la Belgique</p>
-
-            <p class="TextAdjust2"> Explorez la Belgique, pays de chocolat <br>
-                délicieux, de bières artisanales et <br>
-                d'architecture médiévale. Vivez l'Europe au cœur de Bruxelles.
-
-             <h2 class="PortugalAdjust2"> <span class="greengo3"> S'inscrire! </span></h2>
+                
+      </div>    
+      
+      
+      
+      
+      
+      
+      <div class="Paysaccueil3">    
+        
+          <img src="Images/Destinations/Image de la Belgique.jpg" alt="Argentine">  
+        
+           <p class="PortugalAdjust">Vers la Belgique</p>   
+        
+            <p class="TextAdjust2"> Explorez la Belgique, pays de chocolat <br> 
+                délicieux, de bières artisanales et <br>    
+                d'architecture médiévale. Vivez l'Europe au cœur de Bruxelles.  
+                
+                <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>  
 
 
     </div>
 
 
 
-</div>
+    </div>
 
+    <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
+    <div class="modal" id="modal">
+        <div class="modal-inner">
+            <div class="titre">
+                <div><a href="index.html"><img src="Images/avion.png" alt="" class="image-avion"></a></div>
+                <div><p class="titre-popup">Inscription</p></div>
+                <div><img src="Images/symbole-X.png" alt="" id="closeModal" class="symbole-X"></div>
+            </div>
+            
 
+            <div class="container-popup">
+                <div>
+                    <p class="popup">Veuillez inscrire vos informations pour que nous puissions vous rejoindre au plus vite ! </p>
+                    <form action="" class="container-inputs">
+                        <div><input type="text" placeholder="Nom complet"></div>
+                        <div><input type="email" placeholder="Courriel"></div>
+                        <div><input type="tel" placeholder="Cellulaire"></div>
+                        <div><button id="closeModal" class="buttonFermer">Envoyer</button></div>
+                    </form>
+                </div>
+                <div>
+                    <video src="video.mov" autoplay muted width="250"  class="video"></video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+    
 
 
 
