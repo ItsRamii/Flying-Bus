@@ -10,9 +10,6 @@
 <body>
     
     <header>
-
-              <!--La Barre de Navigation--> 
-
         <div class="positionnement-nav-bar">
             <a href="index.html" class="enlever-ligne-enbas-des-liens"><img src="Images/avion.png" alt="logo-compagnie" width="265px" height="246px" class="positionnement-logo" ></a>
             <div class="style-tableau">
@@ -25,16 +22,10 @@
             </div>
           </div>
 
-      <!--Titre de la Page--> 
-
-
                <h1 class="title">Nos Destinations</h1> <br><br>
 
      </header>
 
-
-      <!--Première flexbox (première rangée)--> 
- 
 
 
         <h2 class="TextAdjust">Voici les destinations que nous offrons présentement pour l'année 2023</h2>
@@ -43,7 +34,7 @@
    
         <div class="flex-container2">  
 
-            <div class="Paysaccueil1"> 
+                <div class="Paysaccueil1"> 
       
                   <img src="Images/accueil/Image du Portugal.jpg" alt="">
       
@@ -59,14 +50,14 @@
                         
       
       
-            </div>
+                </div>
       
       
       
       
            
       
-              <div class="Paysaccueil2"> 
+                <div class="Paysaccueil2"> 
         
                     <img src="Images/accueil/Image de la France.jpg" alt="">
         
@@ -75,12 +66,12 @@
                       <p class="TextAdjust2"> Explorez la France, pays de la <br>
                           romance, des délices gastronomiques <br>
                           et des trésors culturels. Réservez votre <br>   
-                          aventure française dès maintenant !
+                          aventure française dès maintenant ! </p>
         
-                          <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
+                          <span><button id="openModal" class="buttonOuvrir"> S'inscrire! </button></span>
         
         
-              </div>
+                </div>
         
       
       
@@ -96,7 +87,7 @@
                     <p class="TextAdjust2"> Découvrez la Chine millénaire : de la <br>
                      Grande Muraille à la cuisine épicée, <br>
                      une aventure culturelle inoubliable <br>
-                     vous attend !
+                     vous attend !</p>
       
                      <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
       
@@ -107,8 +98,6 @@
       
       </div>
 
- 
-          <!--Deuxième flexbox (deuxième rangée)--> 
 
 
       <div class="flex-container3"> 
@@ -122,7 +111,7 @@
                 <p class="TextAdjust2"> Explorez la Corée : entre modernité <br>
                     étincelante et traditions anciennes, <br>
                     laissez-vous séduire par ce voyage <br>
-                    captivant et unique."
+                    captivant et unique."</p>
   
                     <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
   
@@ -143,9 +132,9 @@
                   <p class="TextAdjust2"> Explorez l'Espagne ensoleillée : plages <br>
                     dorées, tapas délicieuses, et sites <br>
                     historiques vous promettent des <br>
-                    souvenirs mémorables ! Vamos!
+                    souvenirs mémorables ! Vamos!</p>
     
-                    <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
+                    <span><button id="openModal" class="buttonOuvrir"> S'inscrire! </button></span>
     
     
           </div> 
@@ -164,7 +153,7 @@
                 <p class="TextAdjust2"> Explorez l'Argentine : des sommets <br>
                     des Andes aux danses passionnées du <br>
                     tango, une aventure sud-américaine <br>
-                    époustouflante vous attend ! 
+                    époustouflante vous attend ! </p>
   
                     <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
   
@@ -176,7 +165,7 @@
   </div>
 
 
-    <!--Dernière Flexbox (troisième rangée) --> 
+  <!--Flexbox pour la troisième rangée -->
   
 
 
@@ -192,7 +181,7 @@
             <p class="TextAdjust2"> Explorez l'Égypte antique, des <br>
                 pyramides majestueuses aux mystères <br>
                 du Nil, pour une aventure historique et <br>
-                envoûtante incomparable.
+                envoûtante incomparable.</p>
 
                 <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
 
@@ -212,9 +201,10 @@
 
               <p class="TextAdjust2"> Explorez l'Allemagne, où histoire, culture,<br>
                 et paysages pittoresques se rencontrent <br>
-                pour une expérience voyage inoubliable.
+                pour une expérience voyage inoubliable. <br><br>
+                </p>
 
-                <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
+                <span><button id="openModal" class="buttonOuvrir"> S'inscrire! </button></span>
 
                 
       </div>    
@@ -232,28 +222,25 @@
         
             <p class="TextAdjust2"> Explorez la Belgique, pays de chocolat <br> 
                 délicieux, de bières artisanales et <br>    
-                d'architecture médiévale. Vivez l'Europe au cœur de Bruxelles.  
+                d'architecture médiévale. Vivez l'Europe au cœur de Bruxelles.  </p>
                 
                 <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>  
 
 
     </div>
 
- <!--Le bouton s'inscrire-->
+
 
     </div>
 
-    <button id="openModal" class="buttonOuvrir"> S'inscrire! </button>
-    <div class="modal" id="modal">
+    <div class="modal position" id="modal">
         <div class="modal-inner">
             <div class="titre">
                 <div><a href="index.html"><img src="Images/avion.png" alt="" class="image-avion"></a></div>
                 <div><p class="titre-popup">Inscription</p></div>
-                <div><img src="Images/symbole-X.png" alt="" id="closeModal" class="symbole-X"></div>
+                <span><div><img src="Images/symbole-X.png" alt="" id="closeModal" class="symbole-X close"></div></span>
             </div>
             
-
-            <!--Le popup-->
 
             <div class="container-popup">
                 <div>
