@@ -3,8 +3,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
 
+  /*Tous les Ajustements concernant la Nav Bar*/ 
+
+header{
+  
 
     background-image: url(Images/Destinations/image\ arrière\ en-tête\ destinations.jpg);
     background-repeat: no-repeat;
@@ -70,6 +73,8 @@ header{
         color: black;
     }
 
+     /*Ajustement au titre et à l'intertitre*/
+
     .title{
 
       text-align: center;
@@ -86,6 +91,9 @@ header{
 
 
     }
+
+
+    /*Ajustement aux flexcontainers et ses éléments*/ 
 
 
     .flex-container2{
@@ -121,6 +129,8 @@ header{
     }
 
 
+      /*Greengo c'est le bouton allons-y ou s'inscrire*/ 
+    
     .greengo{
 
 
