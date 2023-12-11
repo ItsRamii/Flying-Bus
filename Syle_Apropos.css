@@ -15,6 +15,9 @@ width: 1440px;
 height: 333px;
 }
 
+/*Ajustements apportés à la Nav Bar*/
+
+
 .positionnement-nav-bar{
     display: flex;
     width: 1100px;
@@ -65,17 +68,23 @@ height: 333px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Ajustements liens entres les pages*/
+
 .enlever-ligne-enbas-des-liens{
     text-decoration: none;
     color: black;
 }
 
+footer{
 
-
-p{
-
-
+margin-top: 110px;
+    
 }
+
+
+
+
+/*Ajustements apportés aux textes*/
 
 .style-text{
     margin: 0 0 10px 0;
@@ -91,11 +100,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-footer{
 
-margin-top: 110px;
-    
-}
 
 
 .title{
