@@ -1,5 +1,6 @@
 body{
     width: 1440px;
+    padding-left: 210px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -275,15 +276,12 @@ height: 685px;
 
 
     .YtVid {
-        display: list-item;
-        align-items: center;
+        
         
         
 
         padding-left: 20px;
         margin-left: 80px;
-
-
 
     }
 
@@ -292,5 +290,137 @@ margin-top: 60px;
 margin-bottom: 30px;
 text-align: center;
 padding-top: 10px;
+}
 
+.modal{
+
+    display: none;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    
+    
+    
+}
+
+.position{
+    padding-top: 150px;
+    padding-left: 420px;
+}
+
+.modal-inner{
+    background-color: #88C896;
+    border-top: 10px #147C12 dashed;
+    border-bottom: 10px #147C12 dashed;
+    border-left: 10px #147C12 dashed;
+    border-right: 10px #147C12 dashed;
+    width: 1068px;
+    height: 636px;
+    
+}
+
+.symbole-X{
+    width: 100px;
+}
+
+.image-avion{
+    width: 150px;
+}
+
+.titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1040px;
+    padding-left: 20px;
+    
+}
+
+.popup{
+    font-size: 19px;
+    font-weight: 800;
+    width: 500px;
+}
+
+.abbonez-vous{
+    font-size: 17px;
+    font-weight: 900;
+    width: 500px;
+    text-align: center;
+}
+
+.container-inputs{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 150px;
+    
+    margin-top: 20px;
+    align-items: center;
+}
+
+.buttonFermer{
+    width: 515px;
+    height: 42px;
+    font-size: 18px;
+    border: 3px black solid; 
+    background-color: #147C12;
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.container-popup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    padding-left: 50px;
+    padding-top: 20px;
+   }
+
+   .titre-popup{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 900;
+   }
+
+   input[type=text]{
+    width: 499.88px;
+    height: 37.89px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 2px #147C12 solid;
+   }
+
+   input[type=email]{
+    width: 499.88px;
+    height: 37.89px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 2px #147C12 solid;
+   }
+
+
+   .photo{
+    border-radius: 38px;
+}
+button{
+    border: none;
+    color: #20A31E;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    color: black;
 }
