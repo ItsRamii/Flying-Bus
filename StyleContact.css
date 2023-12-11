@@ -11,6 +11,9 @@ header{
     
 }
 
+ /*Ajustements apportés à la Nav Bar*/
+
+
 .positionnement-nav-bar{
 
     display: flex;
@@ -63,6 +66,9 @@ header{
     font-weight: 500;
 }
 
+   /*Ajustement au lien entres les pages */
+
+
 .enlever-ligne-enbas-des-liens{
     text-decoration: none;
     color: black;
@@ -88,6 +94,8 @@ header{
 .couleur-rouge{
     color: red;
 }
+
+/*Tous les ajustements apportés au questionnaires / formulaire*/
 
 .style-questionnaire{
     margin: auto;
