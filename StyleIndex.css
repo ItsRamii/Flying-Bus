@@ -326,6 +326,11 @@ h1 {
 
 .image-avion {
 	width: 150px;
+	
+}
+
+.clickAvion{
+	cursor: pointer;
 }
 
 .titre {
