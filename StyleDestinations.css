@@ -26,12 +26,17 @@ header {
 }
 
 .style-text-tableau {
-
+	
 	padding-top: 5px;
 	padding-left: 8px;
 	font-size: 25px;
 	font-weight: 500;
 	font-family: Arial, Helvetica, sans-serif;
+	transition: all 0.3s ease-in-out;
+}
+
+.style-text-tableau:hover{
+	color: #1A9F18;
 }
 
 .espace-entre-colonnes {

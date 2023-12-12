@@ -22,13 +22,19 @@ header {
 	padding-left: 115px;
 }
 
-.style-text-tableau {
 
+.style-text-tableau {
+	
 	padding-top: 5px;
 	padding-left: 8px;
 	font-size: 25px;
 	font-weight: 500;
 	font-family: Arial, Helvetica, sans-serif;
+	transition: all 0.3s ease-in-out;
+}
+
+.style-text-tableau:hover{
+	color: #1A9F18;
 }
 
 .espace-entre-colonnes {
@@ -66,6 +72,7 @@ header {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .enlever-ligne-enbas-des-liens {
 	text-decoration: none;
 	color: black;
@@ -102,7 +109,11 @@ h1 {
 .couleur-vert {
 
 	color: #20A31E;
+	transition: all 0.3s ease-in-out;
+}
 
+.couleur-vert:hover{
+	text-shadow: 0.5px 0.5px 1px #0aa10f, 0 0 1em black, 0 0 0.2em black;
 }
 
 .flex-container {
@@ -214,7 +225,11 @@ h1 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 30px;
+	transition: all 0.3s ease-in-out;
+}
 
+.greengo:hover{
+	background-color: #0aa10f;
 }
 
 .greengo2 {
@@ -229,9 +244,12 @@ h1 {
 	margin-bottom: 10px;
 	font-size: 30px;
 	margin-left: 11px;
-
+	transition: all 0.3s ease-in-out;
 }
 
+.greengo2:hover{
+	background-color: #0aa10f;
+}
 
 .Paysaccueil1 {
 
@@ -412,7 +430,7 @@ input[type=email] {
 	border-radius: 38px;
 }
 
-button {
+.buttonOuvrir {
 	border: none;
 	color: #20A31E;
 	background-color: white;
@@ -423,5 +441,5 @@ button {
 }
 
 button:hover {
-	color: black;
+	text-shadow: 0.5px 0.5px 1px #0aa10f, 0 0 1em black, 0 0 0.2em black;
 }
