@@ -336,7 +336,11 @@ input[type=tel] {
 	padding-right: 70px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	transition: all 0.3s ease-in-out;
+}
 
+.buttonFermer:hover{
+	background-color: #2865c2;
 }
 
 .container-inputs {
@@ -419,6 +423,7 @@ span {
 
 .symbole-X {
 	width: 100px;
+	cursor: pointer;
 }
 
 .image-avion {
