@@ -286,6 +286,8 @@ header {
 
 }
 
+
+/* Modifications du popup */
 .container-popup {
 	display: flex;
 	flex-direction: row;
