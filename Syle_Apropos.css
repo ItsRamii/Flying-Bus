@@ -1,114 +1,110 @@
-body{
-    width: 1440px;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+	width: 1440px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 
-header{
+header {
 
 
-background-image: url(Images/A-propos/A-propos\ arriere\ en-tete.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+	background-image: url(Images/A-propos/A-propos\ arriere\ en-tete.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 
-width: 1440px;
-height: 333px;
+	width: 1440px;
+	height: 333px;
 }
 
 /*Ajustements apportés à la Nav Bar*/
 
 
-.positionnement-nav-bar{
-    display: flex;
-    width: 1100px;
-    justify-content: space-between;
-    padding-left: 115px;
+.positionnement-nav-bar {
+	display: flex;
+	width: 1100px;
+	justify-content: space-between;
+	padding-left: 115px;
 }
 
-.style-text-tableau{
+.style-text-tableau {
 
-    padding-top: 5px;
-    padding-left: 8px;
-    font-size: 25px;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
+	padding-top: 5px;
+	padding-left: 8px;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-.espace-entre-colonnes{
-    padding-right: 5px;
-    padding-left: 35px;
-    
-}
-.espace-après-contact{
-    padding-right: 60px;
-    padding-left: 10px;
+.espace-entre-colonnes {
+	padding-right: 5px;
+	padding-left: 35px;
+
 }
 
-.style-tableau{
-    display: flex;
-    background-color: #D9D9D9;
-    border-radius: 50px;
-    width: 775px;
-    height: 90px;
-    margin-top: 80px;
-    
+.espace-après-contact {
+	padding-right: 60px;
+	padding-left: 10px;
 }
 
-.style-Reservez-Maintentant{
-    background-color: #1A9F18;
-    border-radius: 50px;
-    margin-left: 41px;
-    padding-left: 10px;
-    padding-top: 5px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 250px;
-    font-size: 25px;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
+.style-tableau {
+	display: flex;
+	background-color: #D9D9D9;
+	border-radius: 50px;
+	width: 775px;
+	height: 90px;
+	margin-top: 80px;
+
+}
+
+.style-Reservez-Maintentant {
+	background-color: #1A9F18;
+	border-radius: 50px;
+	margin-left: 41px;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 250px;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Ajustements liens entres les pages*/
 
-.enlever-ligne-enbas-des-liens{
-    text-decoration: none;
-    color: black;
+.enlever-ligne-enbas-des-liens {
+	text-decoration: none;
+	color: black;
 }
 
-footer{
+footer {
 
-margin-top: 110px;
-    
+	margin-top: 110px;
+
 }
-
-
 
 
 /*Ajustements apportés aux textes*/
 
-.style-text{
-    margin: 0 0 10px 0;
-    font-size: 27px;
-    margin-left: 30px;
+.style-text {
+	margin: 0 0 10px 0;
+	font-size: 27px;
+	margin-left: 30px;
 }
 
 
-h1{
+h1 {
 
-    margin-left: 30px;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+	margin-left: 30px;
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 
-
-
-.title{
-    text-align: center;
-    color: #FFFFFF;
+.title {
+	text-align: center;
+	color: #FFFFFF;
 }
 
-.couleur-bleu{
-    color: #5599FE;
+.couleur-bleu {
+	color: #5599FE;
 }
-

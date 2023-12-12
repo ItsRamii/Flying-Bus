@@ -1,442 +1,433 @@
-body{
-    width: 1440px;
-    padding-left: 210px;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+	width: 1440px;
+	padding-left: 210px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 
-  /*Tous les Ajustements concernant la Nav Bar*/ 
+/*Tous les Ajustements concernant la Nav Bar*/
 
-header{
-  
-
-    background-image: url(Images/Destinations/image\ arrière\ en-tête\ destinations.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    width: 1440px;
-    height: 333px;
-    }
-
-    .positionnement-nav-bar{
-        display: flex;
-        width: 1100px;
-        justify-content: space-between;
-        padding-left: 115px;
-    }
-
-    .style-text-tableau{
-    
-        padding-top: 5px;
-        padding-left: 8px;
-        font-size: 25px;
-        font-weight: 500;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .espace-entre-colonnes{
-        padding-right: 5px;
-        padding-left: 35px;
-        
-    }
-    .espace-après-contact{
-        padding-right: 60px;
-        padding-left: 10px;
-    }
-    
-    .style-tableau{
-        display: flex;
-        background-color: #D9D9D9;
-        border-radius: 50px;
-        width: 775px;
-        height: 90px;
-        margin-top: 80px;
-        
-    }
-
-    .style-Reservez-Maintentant{
-        background-color: #1A9F18;
-        border-radius: 50px;
-        margin-left: 41px;
-        padding-left: 10px;
-        padding-top: 5px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        width: 250px;
-        font-size: 25px;
-        font-weight: 500;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-    }
-
-    .enlever-ligne-enbas-des-liens{
-        text-decoration: none;
-        color: black;
-    }
-
-     /*Ajustement au titre et à l'intertitre*/
-
-    .title{
-
-      text-align: center;
-       color: white;
-
-    }
-
-    .TextAdjust {
-
-        margin-left: 30px;
-        margin-top: 60px;
-        font-size: 35px;
+header {
 
 
+	background-image: url(Images/Destinations/image\ arrière\ en-tête\ destinations.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 
-    }
+	width: 1440px;
+	height: 333px;
+}
 
+.positionnement-nav-bar {
+	display: flex;
+	width: 1100px;
+	justify-content: space-between;
+	padding-left: 115px;
+}
 
-    /*Ajustement aux flexcontainers et ses éléments*/ 
+.style-text-tableau {
 
+	padding-top: 5px;
+	padding-left: 8px;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: Arial, Helvetica, sans-serif;
+}
 
-    .flex-container2{
+.espace-entre-colonnes {
+	padding-right: 5px;
+	padding-left: 35px;
 
-        width: 1410px;
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        height: 676px;
-       justify-content: space-between;
-        align-items: start;
-        margin-bottom: 30px;
-    
-    }
+}
 
+.espace-après-contact {
+	padding-right: 60px;
+	padding-left: 10px;
+}
 
-    .TextAdjust2{
+.style-tableau {
+	display: flex;
+	background-color: #D9D9D9;
+	border-radius: 50px;
+	width: 775px;
+	height: 90px;
+	margin-top: 80px;
 
+}
 
-        text-align: left;
-        padding-left: 24px;
-        font-size: 23px;
-    }
+.style-Reservez-Maintentant {
+	background-color: #1A9F18;
+	border-radius: 50px;
+	margin-left: 41px;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 250px;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
 
-    .PortugalAdjust{
+.enlever-ligne-enbas-des-liens {
+	text-decoration: none;
+	color: black;
+}
 
-        text-align: center;
-        font-size: 32px;
-        padding: 0px;
-        margin-top: 10px;
-        font-weight: bold;
-        margin-right: 10px;
-    }
+/*Ajustement au titre et à l'intertitre*/
 
+.title {
 
-      /*Greengo c'est le bouton allons-y ou s'inscrire*/ 
-    
-    .greengo{
+	text-align: center;
+	color: white;
 
+}
 
-        background-color: #0BC212;
-        padding-right: 120px;
-        padding-left: 105px;
-        padding-top: 12px;
-        padding-bottom: 20px;
-        
-        margin-bottom: 10px;
-        font-size: 30px;
-        
-    }
+.TextAdjust {
 
-    .PortugalAdjust2 {
-
-
-        margin-top: 0px;
-        margin-left: 15px;
-        padding-left: 12px;
-        padding-right: 0px;
-       }
-
-    .greengo2{
-
-
-        background-color: #0BC212;
-        padding-right: 120px;
-        padding-left: 135px;
-        padding-top: 12px;
-        padding-bottom: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 30px;
-        margin-left: 11px;
-        
-    }
-
-
+	margin-left: 30px;
+	margin-top: 60px;
+	font-size: 35px;
 
 
-.Paysaccueil1{
-
-background-color: #D9D9D9;
-width: 428px;
-height: 685px;
-    
 }
 
 
-.Paysaccueil2{
-
-    background-color: #D9D9D9;
-    width: 473px;
-    height: 685px;
-        
-    }
-    .Paysaccueil3{
+/*Ajustement aux flexcontainers et ses éléments*/
 
 
-        background-color: #D9D9D9;
-        width: 424px;
-        height: 685px;
+.flex-container2 {
 
+	width: 1410px;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	height: 676px;
+	justify-content: space-between;
+	align-items: start;
+	margin-bottom: 30px;
 
-            
-        }
-    .PortugalAdjust2 {
-
-
-     margin-top: 60px;
-     margin-left: 15px;
-     padding-left: 12px;
-     padding-right: 0px;
-    
-
-    }
-
-
-    .flex-container3 {
-
-        width: 1410px;
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        height: 676px;
-        justify-content: space-between;
-        align-items: start;
-        margin-bottom: 30px;
-    
-
-
-
-    }
-
-
-    .flex-container4 {
-
-        width: 1410px;
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        height: 676px;
-        justify-content: space-between;
-        align-items: start;
-        margin-bottom: 50px;
-    
-
-
-
-    }
-
-    .greengo3 {
-
-    
-        background-color: #0BC212;
-        padding-right: 120px;
-        padding-left: 90px;
-        padding-top: 12px;
-        padding-bottom: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 30px;
-        margin-left: 11px;  
-
-
-
-    }
-
-    .greengoUnique {
-
-    
-    background-color: #0BC212;
-    padding-right: 121px;
-    padding-left: 98px;
-    padding-top: 12px;
-    padding-bottom: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 30px;
-    margin-left: 2px;
-
-
-    }
-
-
-
-
-       .PortugalAdjustUnique {
-
-
-        margin-top: 88px;
-        margin-left: 31px;
-        padding-left: 16px;
-        
-    }
-       
-   .container-popup{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 900px;
-    padding-left: 50px;
-    padding-top: 20px;
-   }
-
-   .titre-popup{
-    text-align: center;
-    font-size: 46px;
-    font-weight: 900;
-   }
-
-   input[type=text]{
-    width: 337px;
-    height: 46px;
-    text-align: center;
-    font-size: 18px;
-    border: 2px #3385FF solid;
-   }
-
-   input[type=email]{
-    width: 337px;
-    height: 46px;
-    text-align: center;
-    font-size: 18px;
-    border: 2px #3385FF solid;
-   }
-
-   input[type=tel]{
-    width: 264px;
-    height: 32px;
-    text-align: center;
-    font-size: 18px;
-    border: 2px #3385FF solid;
-   }
-
-.buttonFermer{
-    font-size: 18px;
-    border: 5px white solid; 
-    background-color: #3385FF;
-    color: white;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-}
-
-.container-inputs{
-    display:flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 300px;
-    margin-top: 50px;
-    align-items: center;
 }
 
 
-.buttonOuvrir{
-    margin-left: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #0BC212;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s;
+.TextAdjust2 {
+
+
+	text-align: left;
+	padding-left: 24px;
+	font-size: 23px;
 }
 
-span{
-    margin-left: 30px;
+.PortugalAdjust {
+
+	text-align: center;
+	font-size: 32px;
+	padding: 0px;
+	margin-top: 10px;
+	font-weight: bold;
+	margin-right: 10px;
 }
 
 
-.buttonOuvrir :active{
-    opacity: 0.8;
+/*Greengo c'est le bouton allons-y ou s'inscrire*/
+
+.greengo {
+
+
+	background-color: #0BC212;
+	padding-right: 120px;
+	padding-left: 105px;
+	padding-top: 12px;
+	padding-bottom: 20px;
+
+	margin-bottom: 10px;
+	font-size: 30px;
+
 }
 
-.modal{
+.PortugalAdjust2 {
 
-    display: none;
-    opacity: 1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    transition: all 0.3s ease-in-out;
-    z-index: 1;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-    
-    
-    
+
+	margin-top: 0px;
+	margin-left: 15px;
+	padding-left: 12px;
+	padding-right: 0px;
 }
 
-.position{
-    padding-top: 150px;
-    padding-left: 420px;
+.greengo2 {
+
+
+	background-color: #0BC212;
+	padding-right: 120px;
+	padding-left: 135px;
+	padding-top: 12px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 30px;
+	margin-left: 11px;
+
+}
+
+
+.Paysaccueil1 {
+
+	background-color: #D9D9D9;
+	width: 428px;
+	height: 685px;
+
+}
+
+
+.Paysaccueil2 {
+
+	background-color: #D9D9D9;
+	width: 473px;
+	height: 685px;
+
+}
+
+.Paysaccueil3 {
+
+
+	background-color: #D9D9D9;
+	width: 424px;
+	height: 685px;
+
+
+}
+
+.PortugalAdjust2 {
+
+
+	margin-top: 60px;
+	margin-left: 15px;
+	padding-left: 12px;
+	padding-right: 0px;
+
+
+}
+
+
+.flex-container3 {
+
+	width: 1410px;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	height: 676px;
+	justify-content: space-between;
+	align-items: start;
+	margin-bottom: 30px;
+
+
+}
+
+
+.flex-container4 {
+
+	width: 1410px;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	height: 676px;
+	justify-content: space-between;
+	align-items: start;
+	margin-bottom: 50px;
+
+
+}
+
+.greengo3 {
+
+
+	background-color: #0BC212;
+	padding-right: 120px;
+	padding-left: 90px;
+	padding-top: 12px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 30px;
+	margin-left: 11px;
+
+
+}
+
+.greengoUnique {
+
+
+	background-color: #0BC212;
+	padding-right: 121px;
+	padding-left: 98px;
+	padding-top: 12px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 30px;
+	margin-left: 2px;
+
+
+}
+
+
+.PortugalAdjustUnique {
+
+
+	margin-top: 88px;
+	margin-left: 31px;
+	padding-left: 16px;
+
+}
+
+.container-popup {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 900px;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.titre-popup {
+	text-align: center;
+	font-size: 46px;
+	font-weight: 900;
+}
+
+input[type=text] {
+	width: 337px;
+	height: 46px;
+	text-align: center;
+	font-size: 18px;
+	border: 2px #3385FF solid;
+}
+
+input[type=email] {
+	width: 337px;
+	height: 46px;
+	text-align: center;
+	font-size: 18px;
+	border: 2px #3385FF solid;
+}
+
+input[type=tel] {
+	width: 264px;
+	height: 32px;
+	text-align: center;
+	font-size: 18px;
+	border: 2px #3385FF solid;
+}
+
+.buttonFermer {
+	font-size: 18px;
+	border: 5px white solid;
+	background-color: #3385FF;
+	color: white;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.container-inputs {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 300px;
+	margin-top: 50px;
+	align-items: center;
+}
+
+
+.buttonOuvrir {
+	margin-left: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #0BC212;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+span {
+	margin-left: 30px;
+}
+
+
+.buttonOuvrir :active {
+	opacity: 0.8;
+}
+
+.modal {
+
+	display: none;
+	opacity: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: all 0.3s ease-in-out;
+	z-index: 1;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+
+
+}
+
+.position {
+	padding-top: 150px;
+	padding-left: 420px;
 }
 
 
 .buttonOuvrir:hover {
-    background-color: #0aa10f;
-  }
+	background-color: #0aa10f;
+}
 
-.modal-inner{
-    background-color: #A2BDE5;
-    border-top: 10px #3385FF dashed;
-    border-bottom: 10px #3385FF dashed;
-    border-left: 10px #3385FF dashed;
-    border-right: 10px #3385FF dashed;
-    width: 1068px;
-    height: 636px;
-    
+.modal-inner {
+	background-color: #A2BDE5;
+	border-top: 10px #3385FF dashed;
+	border-bottom: 10px #3385FF dashed;
+	border-left: 10px #3385FF dashed;
+	border-right: 10px #3385FF dashed;
+	width: 1068px;
+	height: 636px;
+
 }
 
 
-.video{
-    
-    
-    border-radius: 32px;
+.video {
+
+
+	border-radius: 32px;
 }
 
-.symbole-X{
-    width: 100px;
+.symbole-X {
+	width: 100px;
 }
 
-.image-avion{
-    width: 150px;
+.image-avion {
+	width: 150px;
 }
 
-.titre{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1040px;
-    padding-left: 20px;
-    
+.titre {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1040px;
+	padding-left: 20px;
+
 }
 
-.popup{
-    font-size: 19px;
-    font-weight: 800;
+.popup {
+	font-size: 19px;
+	font-weight: 800;
 }

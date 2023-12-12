@@ -1,426 +1,422 @@
-body{
-    width: 1440px;
-    padding-left: 210px;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+	width: 1440px;
+	padding-left: 210px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
 
 
-    background-image: url(Images/accueil/image\ arrière\ en-tête\ accueil.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    width: 1440px;
-    height: 333px;
-    }
+	background-image: url(Images/accueil/image\ arrière\ en-tête\ accueil.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 
-    .positionnement-nav-bar{
-        display: flex;
-        width: 1100px;
-        justify-content: space-between;
-        padding-left: 115px;
-    }
+	width: 1440px;
+	height: 333px;
+}
 
-    .style-text-tableau{
-    
-        padding-top: 5px;
-        padding-left: 8px;
-        font-size: 25px;
-        font-weight: 500;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .espace-entre-colonnes{
-        padding-right: 5px;
-        padding-left: 35px;
-        
-    }
-    .espace-après-contact{
-        padding-right: 60px;
-        padding-left: 10px;
-    }
-    
-    .style-tableau{
-        display: flex;
-        background-color: #D9D9D9;
-        border-radius: 50px;
-        width: 775px;
-        height: 90px;
-        margin-top: 80px;
-        
-    }
-    
-    .style-Reservez-Maintentant{
-        background-color: #1A9F18;
-        border-radius: 50px;
-        margin-left: 41px;
-        padding-left: 10px;
-        padding-top: 5px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        width: 250px;
-        font-size: 25px;
-        font-weight: 500;
-        font-family: Arial, Helvetica, sans-serif;
-    }
+.positionnement-nav-bar {
+	display: flex;
+	width: 1100px;
+	justify-content: space-between;
+	padding-left: 115px;
+}
 
-    .enlever-ligne-enbas-des-liens{
-        text-decoration: none;
-        color: black;
-    }
+.style-text-tableau {
 
+	padding-top: 5px;
+	padding-left: 8px;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: Arial, Helvetica, sans-serif;
+}
 
-    .title{
+.espace-entre-colonnes {
+	padding-right: 5px;
+	padding-left: 35px;
 
+}
 
-        text-align: center;
-        color: #FFFFFF;
-    }
-    
-    .couleur-bleu{
-        color: #5599FE;
-    }
+.espace-après-contact {
+	padding-right: 60px;
+	padding-left: 10px;
+}
 
+.style-tableau {
+	display: flex;
+	background-color: #D9D9D9;
+	border-radius: 50px;
+	width: 775px;
+	height: 90px;
+	margin-top: 80px;
 
-    .margin{
+}
 
-        margin: 0 0 10px 0;
-        font-size: 27px;
-        margin-left: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
+.style-Reservez-Maintentant {
+	background-color: #1A9F18;
+	border-radius: 50px;
+	margin-left: 41px;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 250px;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: Arial, Helvetica, sans-serif;
+}
 
-    h1{
-
-        margin-left: 30px;
-        font-size: 40px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .couleur-vert{
-
-        color: #20A31E;
-        
-    }
-
-    .flex-container{
-
-        display: flex;
-        flex-direction: row;
-        margin: 30px;
-        padding: 30px;
-
-    }
-
-    .avion{
-        
-          padding: 40px;
-          margin-top: 150px;
-          padding-top: 130px;
-          
-    }
-
-    .DescripImage{
-
-       font-size: 18px;
-       
-    }
-
-    
-
-    .contour-vert{
-        border-top: 2px #14FF1E solid;
-        border-bottom: 2px #14FF1E solid;
-        border-left: 2px #14FF1E solid;
-        border-right: 2px #14FF1E solid;
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-
-    }
-
-    .TextAdjust{
-
-        padding-left: 15px;
-
-
-    }
-
-
-    .contour-vertBel{
-
-        border-top: 2px #14FF1E solid;
-        border-bottom: 2px #14FF1E solid;
-        border-left: 2px #14FF1E solid;
-        border-right: 2px #14FF1E solid;
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-
-
-
-    }
-
-
-    .Underline{
-
-
-      text-align: center;
-      margin-top: 100px;
-
-    }
-
-
-
-    .flex-container2{
-
-        width: 1410px;
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        height: 676px;
-       justify-content: space-between;
-        align-items: start;
-    
-    }
-
-
-    .TextAdjust2{
-
-
-        text-align: left;
-        padding-left: 24px;
-        font-size: 23px;
-    }
-
-    .PortugalAdjust{
-
-        text-align: center;
-        font-size: 32px;
-        padding: 0px;
-        margin-top: 10px;
-        font-weight: bold;
-        margin-right: 10px;
-    }
-
-
-    .greengo{
-
-
-        background-color: #0BC212;
-        padding-right: 120px;
-        padding-left: 120px;
-        padding-top: 12px;
-        padding-bottom: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 30px;
-        
-    }
-
-    .greengo2{
-
-
-        background-color: #0BC212;
-        padding-right: 120px;
-        padding-left: 140px;
-        padding-top: 12px;
-        padding-bottom: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 30px;
-        margin-left: 11px;
-        
-    }
-
-
-
-
-.Paysaccueil1{
-
-background-color: #D9D9D9;
-width: 428px;
-height: 685px;
-    
+.enlever-ligne-enbas-des-liens {
+	text-decoration: none;
+	color: black;
 }
 
 
-.Paysaccueil2{
-
-    background-color: #D9D9D9;
-    width: 473px;
-    height: 685px;
-        
-    }
-    .Paysaccueil3{
+.title {
 
 
-        background-color: #D9D9D9;
-        width: 424px;
-        height: 685px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.couleur-bleu {
+	color: #5599FE;
+}
 
 
-            
-        }
-    .PortugalAdjust2 {
+.margin {
+
+	margin: 0 0 10px 0;
+	font-size: 27px;
+	margin-left: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+
+	margin-left: 30px;
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.couleur-vert {
+
+	color: #20A31E;
+
+}
+
+.flex-container {
+
+	display: flex;
+	flex-direction: row;
+	margin: 30px;
+	padding: 30px;
+
+}
+
+.avion {
+
+	padding: 40px;
+	margin-top: 150px;
+	padding-top: 130px;
+
+}
+
+.DescripImage {
+
+	font-size: 18px;
+
+}
 
 
-     margin-top: 60px;
-     margin-left: 15px;
-     padding-left: 12px;
-     padding-right: 0px;
-    
+.contour-vert {
+	border-top: 2px #14FF1E solid;
+	border-bottom: 2px #14FF1E solid;
+	border-left: 2px #14FF1E solid;
+	border-right: 2px #14FF1E solid;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 
-    }
+}
+
+.TextAdjust {
+
+	padding-left: 15px;
 
 
-    .YtVid {
-        
-        
-        
+}
 
-        padding-left: 20px;
-        margin-left: 80px;
 
-    }
+.contour-vertBel {
+
+	border-top: 2px #14FF1E solid;
+	border-bottom: 2px #14FF1E solid;
+	border-left: 2px #14FF1E solid;
+	border-right: 2px #14FF1E solid;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+}
+
+
+.Underline {
+
+
+	text-align: center;
+	margin-top: 100px;
+
+}
+
+
+.flex-container2 {
+
+	width: 1410px;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	height: 676px;
+	justify-content: space-between;
+	align-items: start;
+
+}
+
+
+.TextAdjust2 {
+
+
+	text-align: left;
+	padding-left: 24px;
+	font-size: 23px;
+}
+
+.PortugalAdjust {
+
+	text-align: center;
+	font-size: 32px;
+	padding: 0px;
+	margin-top: 10px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+
+.greengo {
+
+
+	background-color: #0BC212;
+	padding-right: 120px;
+	padding-left: 120px;
+	padding-top: 12px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 30px;
+
+}
+
+.greengo2 {
+
+
+	background-color: #0BC212;
+	padding-right: 120px;
+	padding-left: 140px;
+	padding-top: 12px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 30px;
+	margin-left: 11px;
+
+}
+
+
+.Paysaccueil1 {
+
+	background-color: #D9D9D9;
+	width: 428px;
+	height: 685px;
+
+}
+
+
+.Paysaccueil2 {
+
+	background-color: #D9D9D9;
+	width: 473px;
+	height: 685px;
+
+}
+
+.Paysaccueil3 {
+
+
+	background-color: #D9D9D9;
+	width: 424px;
+	height: 685px;
+
+
+}
+
+.PortugalAdjust2 {
+
+
+	margin-top: 60px;
+	margin-left: 15px;
+	padding-left: 12px;
+	padding-right: 0px;
+
+
+}
+
+
+.YtVid {
+
+
+	padding-left: 20px;
+	margin-left: 80px;
+
+}
 
 .DescriptionVidAdjust {
-margin-top: 60px;
-margin-bottom: 30px;
-text-align: center;
-padding-top: 10px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-top: 10px;
 }
 
-.modal{
+.modal {
 
-    display: none;
-    opacity: 1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    transition: all 0.3s ease-in-out;
-    z-index: 1;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-    
-    
-    
+	display: none;
+	opacity: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: all 0.3s ease-in-out;
+	z-index: 1;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+
+
 }
 
-.position{
-    padding-top: 150px;
-    padding-left: 420px;
+.position {
+	padding-top: 150px;
+	padding-left: 420px;
 }
 
-.modal-inner{
-    background-color: #88C896;
-    border-top: 10px #147C12 dashed;
-    border-bottom: 10px #147C12 dashed;
-    border-left: 10px #147C12 dashed;
-    border-right: 10px #147C12 dashed;
-    width: 1068px;
-    height: 636px;
-    
+.modal-inner {
+	background-color: #88C896;
+	border-top: 10px #147C12 dashed;
+	border-bottom: 10px #147C12 dashed;
+	border-left: 10px #147C12 dashed;
+	border-right: 10px #147C12 dashed;
+	width: 1068px;
+	height: 636px;
+
 }
 
-.symbole-X{
-    width: 100px;
+.symbole-X {
+	width: 100px;
 }
 
-.image-avion{
-    width: 150px;
+.image-avion {
+	width: 150px;
 }
 
-.titre{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1040px;
-    padding-left: 20px;
-    
+.titre {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1040px;
+	padding-left: 20px;
+
 }
 
-.popup{
-    font-size: 19px;
-    font-weight: 800;
-    width: 500px;
+.popup {
+	font-size: 19px;
+	font-weight: 800;
+	width: 500px;
 }
 
-.abbonez-vous{
-    font-size: 17px;
-    font-weight: 900;
-    width: 500px;
-    text-align: center;
+.abbonez-vous {
+	font-size: 17px;
+	font-weight: 900;
+	width: 500px;
+	text-align: center;
 }
 
-.container-inputs{
-    display:flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 150px;
-    
-    margin-top: 20px;
-    align-items: center;
+.container-inputs {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 150px;
+
+	margin-top: 20px;
+	align-items: center;
 }
 
-.buttonFermer{
-    width: 515px;
-    height: 42px;
-    font-size: 18px;
-    border: 3px black solid; 
-    background-color: #147C12;
-    color: white;
-    padding-left: 70px;
-    padding-right: 70px;
+.buttonFermer {
+	width: 515px;
+	height: 42px;
+	font-size: 18px;
+	border: 3px black solid;
+	background-color: #147C12;
+	color: white;
+	padding-left: 70px;
+	padding-right: 70px;
 }
 
-.container-popup{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 900px;
-    padding-left: 50px;
-    padding-top: 20px;
-   }
-
-   .titre-popup{
-    text-align: center;
-    font-size: 46px;
-    font-weight: 900;
-   }
-
-   input[type=text]{
-    width: 499.88px;
-    height: 37.89px;
-    padding-left: 10px;
-    font-size: 18px;
-    border: 2px #147C12 solid;
-   }
-
-   input[type=email]{
-    width: 499.88px;
-    height: 37.89px;
-    padding-left: 10px;
-    font-size: 18px;
-    border: 2px #147C12 solid;
-   }
-
-
-   .photo{
-    border-radius: 38px;
+.container-popup {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 900px;
+	padding-left: 50px;
+	padding-top: 20px;
 }
-button{
-    border: none;
-    color: #20A31E;
-    background-color: white;
-    font-size: 20px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: 0.3s;
+
+.titre-popup {
+	text-align: center;
+	font-size: 46px;
+	font-weight: 900;
 }
+
+input[type=text] {
+	width: 499.88px;
+	height: 37.89px;
+	padding-left: 10px;
+	font-size: 18px;
+	border: 2px #147C12 solid;
+}
+
+input[type=email] {
+	width: 499.88px;
+	height: 37.89px;
+	padding-left: 10px;
+	font-size: 18px;
+	border: 2px #147C12 solid;
+}
+
+
+.photo {
+	border-radius: 38px;
+}
+
+button {
+	border: none;
+	color: #20A31E;
+	background-color: white;
+	font-size: 20px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
 button:hover {
-    color: black;
+	color: black;
 }

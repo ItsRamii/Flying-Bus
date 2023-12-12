@@ -1,231 +1,237 @@
-body{
-    width: 1440px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-header{
-    background-image: url(Images/contact/image\ arrière\ contact.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1440px;
-    height: 469px;
-    
+body {
+	width: 1440px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
- /*Ajustements apportés à la Nav Bar*/
-
-
-.positionnement-nav-bar{
-
-    display: flex;
-    width: 1100px;
-    
-    justify-content: space-between;
-    padding-left: 115px;
-    
+header {
+	background-image: url(Images/contact/image\ arrière\ contact.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1440px;
+	height: 469px;
 
 }
 
-.style-text-tableau{
-    
-    padding-top: 5px;
-    padding-left: 8px;
-    font-size: 25px;
-    font-weight: 500;
+/*Ajustements apportés à la Nav Bar*/
+
+
+.positionnement-nav-bar {
+
+	display: flex;
+	width: 1100px;
+
+	justify-content: space-between;
+	padding-left: 115px;
+
+
 }
 
-.espace-entre-colonnes{
-    padding-right: 5px;
-    padding-left: 35px;
+.style-text-tableau {
+
+	padding-top: 5px;
+	padding-left: 8px;
+	font-size: 25px;
+	font-weight: 500;
 }
 
-.espace-après-contact{
-    padding-right: 60px;
-    padding-left: 10px;
+.espace-entre-colonnes {
+	padding-right: 5px;
+	padding-left: 35px;
 }
 
-.style-tableau{
-    display: flex;
-    background-color: #D9D9D9;
-    border-radius: 50px;
-    width: 775px;
-    height: 90px;
-    margin-top: 80px;
-    margin-bottom: 125px;
+.espace-après-contact {
+	padding-right: 60px;
+	padding-left: 10px;
 }
 
-.style-Reservez-Maintentant{
-    background-color: #1A9F18;
-    border-radius: 50px;
-    margin-left: 41px;
-    padding-left: 10px;
-    padding-top: 5px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 250px;
-    font-size: 25px;
-    font-weight: 500;
+.style-tableau {
+	display: flex;
+	background-color: #D9D9D9;
+	border-radius: 50px;
+	width: 775px;
+	height: 90px;
+	margin-top: 80px;
+	margin-bottom: 125px;
 }
 
-   /*Ajustement au lien entres les pages */
-
-
-.enlever-ligne-enbas-des-liens{
-    text-decoration: none;
-    color: black;
+.style-Reservez-Maintentant {
+	background-color: #1A9F18;
+	border-radius: 50px;
+	margin-left: 41px;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 250px;
+	font-size: 25px;
+	font-weight: 500;
 }
 
-.text-du-header{
-    text-align: center;
-    color: white;
-    
+/*Ajustement au lien entres les pages */
+
+
+.enlever-ligne-enbas-des-liens {
+	text-decoration: none;
+	color: black;
 }
 
-.agrandir-le-text-du-header{
-    font-size: 25px;
-    font-weight: 400;
+.text-du-header {
+	text-align: center;
+	color: white;
+
 }
 
-.mettre-de-lespace-apres-header{
-    margin-top: 65px;
-    margin-bottom: 65px;
-    margin-left: 100px;
+.agrandir-le-text-du-header {
+	font-size: 25px;
+	font-weight: 400;
 }
 
-.couleur-rouge{
-    color: red;
+.mettre-de-lespace-apres-header {
+	margin-top: 65px;
+	margin-bottom: 65px;
+	margin-left: 100px;
+}
+
+.couleur-rouge {
+	color: red;
 }
 
 /*Tous les ajustements apportés au questionnaires / formulaire*/
 
-.style-questionnaire{
-    margin: auto;
-    background-color: #D9D9D9;
-    border-top: 2px black solid;
-    border-left: 2px black solid;
-    border-right: 2px black solid;
-    border-bottom: 2px black solid;
-    width: 1238px;
-    height: 1250px;
-    border-radius: 28px;
-    padding-left: 80px;
-    font-size: 20px;
+.style-questionnaire {
+	margin: auto;
+	background-color: #D9D9D9;
+	border-top: 2px black solid;
+	border-left: 2px black solid;
+	border-right: 2px black solid;
+	border-bottom: 2px black solid;
+	width: 1238px;
+	height: 1250px;
+	border-radius: 28px;
+	padding-left: 80px;
+	font-size: 20px;
 }
 
-input[type=text], select{
-    border-top: 2px #147C12 solid;
-    border-left: 2px #147C12 solid;
-    border-right: 2px #147C12 solid;
-    border-bottom: 2px #147C12 solid;
-    width: 433px;
-    height: 61px;
-    font-size: 28px;
-    padding-left: 10px;
+input[type=text],
+select {
+	border-top: 2px #147C12 solid;
+	border-left: 2px #147C12 solid;
+	border-right: 2px #147C12 solid;
+	border-bottom: 2px #147C12 solid;
+	width: 433px;
+	height: 61px;
+	font-size: 28px;
+	padding-left: 10px;
 }
 
-input[type=email], select{
-    border-top: 2px #147C12 solid;
-    border-left: 2px #147C12 solid;
-    border-right: 2px #147C12 solid;
-    border-bottom: 2px #147C12 solid;
-    width: 433px;
-    height: 61px;
-    font-size: 28px;
-    padding-left: 10px;
+input[type=email],
+select {
+	border-top: 2px #147C12 solid;
+	border-left: 2px #147C12 solid;
+	border-right: 2px #147C12 solid;
+	border-bottom: 2px #147C12 solid;
+	width: 433px;
+	height: 61px;
+	font-size: 28px;
+	padding-left: 10px;
 }
 
-input[type=tel], select{
-    border-top: 2px #147C12 solid;
-    border-left: 2px #147C12 solid;
-    border-right: 2px #147C12 solid;
-    border-bottom: 2px #147C12 solid;
-    width: 340px;
-    height: 42px;
-    font-size: 25px;
-    padding-left: 10px;
+input[type=tel],
+select {
+	border-top: 2px #147C12 solid;
+	border-left: 2px #147C12 solid;
+	border-right: 2px #147C12 solid;
+	border-bottom: 2px #147C12 solid;
+	width: 340px;
+	height: 42px;
+	font-size: 25px;
+	padding-left: 10px;
 }
 
-input[type=radio], select{
-    border: 2px #147C12 solid;
-    font-size: 25px;
-    padding-left: 10px;
+input[type=radio],
+select {
+	border: 2px #147C12 solid;
+	font-size: 25px;
+	padding-left: 10px;
 }
 
-.Flex-Container1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1100px;
-    
-}
-
-.Flex-Container2{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1007px;
-    
-}
-
-.Flex-Container3{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1007px;
-    
-}
-
-.Flex-Container4{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 960px;
-    
-}
-
-.option-destination{
-    display: none;
-}
-
-.Flex-Container5{
-    padding-top: 50px;
-}
-
-textarea{
-    border-top: 2px #147C12 solid;
-    border-left: 2px #147C12 solid;
-    border-right: 2px #147C12 solid;
-    border-bottom: 2px #147C12 solid;
-    width: 660px;
-    height: 250px;
-    resize: none;
-    font-size: 22px;
-    font-weight: 200;
-    padding-left: 10px;
-    padding-top: 5px;
+.Flex-Container1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1100px;
 
 }
 
-.Flex-Container6{
-    display: flex;
-    justify-content: center;
-    padding-top: 80px;
-    
+.Flex-Container2 {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1007px;
+
 }
 
-input[type=submit]{
-    border: none;
-    border-radius: 28px;
-    background-color: #1A9F18;
-    padding: 20px 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    cursor: pointer;
-    transition: 0.3s;
+.Flex-Container3 {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1007px;
+
 }
+
+.Flex-Container4 {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 960px;
+
+}
+
+.option-destination {
+	display: none;
+}
+
+.Flex-Container5 {
+	padding-top: 50px;
+}
+
+textarea {
+	border-top: 2px #147C12 solid;
+	border-left: 2px #147C12 solid;
+	border-right: 2px #147C12 solid;
+	border-bottom: 2px #147C12 solid;
+	width: 660px;
+	height: 250px;
+	resize: none;
+	font-size: 22px;
+	font-weight: 200;
+	padding-left: 10px;
+	padding-top: 5px;
+
+}
+
+.Flex-Container6 {
+	display: flex;
+	justify-content: center;
+	padding-top: 80px;
+
+}
+
+input[type=submit] {
+	border: none;
+	border-radius: 28px;
+	background-color: #1A9F18;
+	padding: 20px 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
 input[type=submit]:hover {
-    background-color: #3c863f;
-  }
+	background-color: #3c863f;
+}
