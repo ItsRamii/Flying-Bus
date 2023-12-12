@@ -4,6 +4,9 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+
+    /*Modifications apportés à la Barre de Navigation*/
+
 header {
 
 
@@ -112,9 +115,13 @@ h1 {
 	transition: all 0.3s ease-in-out;
 }
 
+/*Le hover sur la barre nav*/
+
 .couleur-vert:hover{
 	text-shadow: 0.5px 0.5px 1px #0aa10f, 0 0 1em black, 0 0 0.2em black;
 }
+
+/*Modifications de La première flexbox contenant le son*/
 
 .flex-container {
 
@@ -181,6 +188,7 @@ h1 {
 
 }
 
+/*Modifications de la deuxième flexbox*/
 
 .flex-container2 {
 
@@ -213,6 +221,7 @@ h1 {
 	margin-right: 10px;
 }
 
+/*Greengo c'est le bouton vert*/
 
 .greengo {
 
@@ -289,6 +298,7 @@ h1 {
 
 }
 
+/*Modifciations apportés à la vidéo Youtube*/
 
 .YtVid {
 
@@ -304,6 +314,8 @@ h1 {
 	text-align: center;
 	padding-top: 10px;
 }
+
+/*Changements apportés au popup*/
 
 .modal {
 
